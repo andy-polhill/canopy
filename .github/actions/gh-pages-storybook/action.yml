@@ -1,0 +1,7 @@
+name: 'gh-pages-storybook'
+description: 'Deploys Storybook to GitHub Pages'
+inputs:
+runs:
+  using: 'node14'
+  main: 'index.js'
+
