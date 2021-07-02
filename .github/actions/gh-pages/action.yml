@@ -1,0 +1,10 @@
+name: 'gh-pages'
+description: 'Deploys to GitHub Pages'
+inputs:
+  github_token:
+    description: 'Set a generated GITHUB_TOKEN for pushing to the remote branch.'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
+

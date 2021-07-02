@@ -1,0 +1,9 @@
+{
+  "name": "@legal-and-general/gh-pages-deploy",
+  "private": true,
+  "description": "A github action to deploy to gh-pages",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0"
+  }
+}
